@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_13_projekt_js-vertiefung_string-separation-machine</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<style>
+    section {
+        background-color: teal;
+        border-radius: 15px;
+        padding: 5px;
+        width: 400px;
+        margin: 5px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <section>
+        <h1>Zeichenkettentrennungsmaschine</h1>
+    </section>
+    <section>
+        <h3>Zu trennende Zeichenkette:</h3>
+        <input type="text" name="" id="zeichenkette">
+    </section>
+    <section>
+        <h3>Zeichenkette für die Trennungsposition:</h3>
+        <input type="text" name="" id="trennungsposition">
+    </section>
+    <section>
+        <input type="radio" name="DD" id="davor">
+        <label for="davor">Davor trennen</label>
+        <input type="radio" name="DD" id="danach">
+        <label for="danach">Danach trennen</label>
+    </section>
+    <section>
+        <Button onclick="cut()">Trenn it, Baby!</Button>
+        <p id="nope"></p>
+    </section>
+    <section>
+        <div>
+            <h3>Vorderer Teil</h3>
+            <p id="vorderer"></p>
+        </div>
+        <div>
+            <h3>Hinterer Teil</h3>
+            <p id="hinterer"></p>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
